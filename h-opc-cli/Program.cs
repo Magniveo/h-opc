@@ -83,7 +83,7 @@ namespace Hylasoft.Opc.Cli
         case SupportedTypes.Ua:
           return new UaClient(new Uri(url));
         case SupportedTypes.Da:
-          return new DaClient(new Uri(url));
+          //return new DaClient(new Uri(url));
         default:
           throw new ArgumentOutOfRangeException("type");
       }
